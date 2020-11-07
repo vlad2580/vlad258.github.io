@@ -1,0 +1,146 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/space-background.png');
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 16px;
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 {
+
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+/*
+ * Container Styles
+*/
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+
+  
+}
+
+/*
+ * Hero Styles
+*/
+.hero {
+  line-height: 0;
+}
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*
+ * Aside Styles
+*/
+aside.left {
+  float: left;
+}
+
+aside.right {
+  float: right;
+}
+aside {
+  margin-right: 22px;
+}
+
+
+/*
+ * Section Styles
+*/
+
+.container section:nth-child(2n) {
+  background: #fff;
+}
+section.intro, section.contact {
+  padding: 40px;
+  
+}
+section.intro {
+  background: #fff;
+ 
+}
+
+section.contact {
+  background-color: #dddddd;
+  text-align: center;
+}
+
+#contact__time {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+section.map {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+     
+}
+
+section.footer {
+ background: #dddddd;
+ margin-bottom: 0px;
+}
+
+#footer {
+  margin-bottom: 0px;
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
